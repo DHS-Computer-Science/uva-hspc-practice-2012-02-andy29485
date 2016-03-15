@@ -13,8 +13,9 @@ public class Main {
 
     for(int i=1; i<=nCases; i++) {
       System.out.printf("Case %d: ", i);
-      int n = Integer.valueOf(input.readLine());
-      int d = Integer.valueOf(input.readLine());
+      String[] astrNums = input.readLine().split("\\s+");
+      int n = Integer.valueOf(astrNums[0]);
+      int d = Integer.valueOf(astrNums[1]);
       int w = n/d;
           n = n%d;
 
