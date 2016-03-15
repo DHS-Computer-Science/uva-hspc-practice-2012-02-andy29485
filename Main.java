@@ -21,7 +21,7 @@ public class Main {
 
       if(n==0)
         System.out.println(w);
-      else if(i==0)
+      else if(w==0)
         System.out.printf("%d/%d\n", n, d);
       else
         System.out.printf("%d %d/%d\n", w, n, d);
